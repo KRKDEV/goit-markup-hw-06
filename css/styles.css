@@ -543,7 +543,7 @@ body {
   gap: 70px;
 }
 
-.footer-block-2 p {
+.footer-block-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -572,6 +572,38 @@ body {
 .footer-social-links a:hover,
 .footer-social-links a:focus {
   background-color: var(--blue-text-color);
+}
+
+/* .footer-block-2,
+.footer-block-3 {
+  border: 1px solid red;
+} */
+
+.newsletter-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background: none;
+}
+
+.newsletter-button {
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background-color: var(--button-primary-color);
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 /* ===== END FOOTER ===== */
