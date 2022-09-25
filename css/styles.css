@@ -587,6 +587,7 @@ body {
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
   background: none;
+  padding-left: 16px;
 }
 
 .footer-block-3 form {
