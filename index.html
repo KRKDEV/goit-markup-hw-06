@@ -340,10 +340,25 @@
                 <p>Zostaw swoje dane w formularzu poniżej</p>
                 <form>
                     <ul>
-                        <li><label>Imie</label><input type="text" /></li>
-                        <li><label>Telefon</label><input type="tel" /></li>
-                        <li><label>Email</label><input type="email" /></li>
-                        <li><label>Komentarz</label><textarea rows="5" placeholder="Wprowadź tekst"></textarea></li>
+                        <li>
+                            <label class="form-label">Imie<input type="text" /></label>
+                        </li>
+                        <li>
+                            <label class="form-label">Telefon<input type="tel" /></label>
+                        </li>
+                        <li>
+                            <label class="form-label">Email<input type="email" /></label>
+                        </li>
+                        <li>
+                            <label class="form-comment">Komentarz<textarea rows="5" placeholder="Wprowadź tekst"></textarea></label>
+                        </li>
+                        <li class="checkbox-wrapper">
+                            <label class="form-checkbox"><input class="input-checkbox" type="checkbox" />Oświadczam iż akceptuję <a href="">regulamin</a> i <a href="">politykę prywatności</a></label>
+                        </li>
+
+                        <li class="form-button">
+                            <button class="form-button-submit" type="submit">Wyślij</button>
+                        </li>
                     </ul>
                 </form>
             </div>
