@@ -723,9 +723,12 @@ body {
 
 .input-checkbox {
   max-width: 16px;
+  max-height: 15px;
   padding: 0;
+  margin-right: 8px;
   position: absolute;
-  bottom: 1px;
+  left: 0;
+  padding-right: 8px;
 }
 
 .form-comment {
@@ -738,12 +741,13 @@ body {
 }
 
 .form-checkbox {
+  width: 419px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  text-align: center;
   position: relative;
+  border: 2px solid red;
 }
 
 .form-checkbox a {
@@ -753,6 +757,7 @@ body {
 .checkbox-wrapper {
   display: flex;
   border: 2px solid red;
+  align-items: center;
   justify-content: center;
 }
 
@@ -775,4 +780,9 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+}
+
+form svg {
+  position: absolute;
+  padding: 0;
 }
