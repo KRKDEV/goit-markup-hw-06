@@ -730,7 +730,7 @@ body {
 }
 
 .form-label:focus-within input {
-  border-color: var(--icons-active-color);
+  border-color: red;
   transition: border-color 250ms var(--transition-fn);
 }
 
@@ -777,7 +777,7 @@ body {
   position: absolute;
   fill: #ffffff;
   top: 0;
-  right: 98%;
+  right: 97%;
   border: 1px solid var(--dark-text-color);
   border-radius: 4px;
 }
