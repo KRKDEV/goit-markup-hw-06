@@ -15,6 +15,7 @@
   --icons-primary-color: #afb1b8;
   --icons-secondary-color: #ffffff;
   --icons-active-color: #2196f3;
+  --transition-fn: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -707,6 +708,7 @@ body {
 
 .form-label:focus-within > .form-label-icon {
   fill: var(--icons-active-color);
+  transition: fill 250ms var(--transition-fn);
 }
 
 .form-label input {
@@ -719,7 +721,8 @@ body {
 }
 
 .form-label:focus-within > input {
-  border: 1px solid var(--blue-text-color);
+  border: 1px solid var(--icons-active-color);
+  transition: border-color 250ms var(--transition-fn);
 }
 
 .form-comment {
@@ -744,6 +747,11 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.form-comment:focus-within textarea {
+  border-color: var(--icons-active-color);
+  transition: border-color 250ms var(--transition-fn);
 }
 
 .input-checkbox {
@@ -775,8 +783,7 @@ input:checked + .icon-check {
   border-color: var(--icons-active-color);
   border-radius: 2px;
   border: none;
-  transition: border-color 250ms var(--icons-active-color);
-  transition: fill 250ms var(--icons-active-color);
+  transition: fill 250ms var(--transition-fn);
 }
 
 .terms-privacy {
