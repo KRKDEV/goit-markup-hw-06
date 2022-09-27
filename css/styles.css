@@ -744,7 +744,7 @@ body {
   margin-bottom: 20px;
 }
 
-.modal textarea {
+.form-comment textarea {
   max-width: 99%;
   max-height: 120px;
   resize: none;
@@ -755,7 +755,6 @@ body {
   font-family: "Roboto";
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-comment:focus-within textarea {
@@ -763,14 +762,10 @@ body {
   transition: border-color 250ms var(--transition-fn);
 }
 
-.input-checkbox {
-  max-width: 16px;
-  max-height: 15px;
-  padding: 0;
-  margin-right: 8px;
-  position: absolute;
-  left: 0;
-  padding-right: 8px;
+.form-checkbox {
+  position: relative;
+  margin-left: 20px;
+  color: var(--bright-text-color);
 }
 
 .input-check {
@@ -782,39 +777,29 @@ body {
   position: absolute;
   fill: #ffffff;
   top: 0;
-  right: 97%;
+  right: 98%;
   border: 1px solid var(--dark-text-color);
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 input:checked + .icon-check {
   fill: var(--icons-active-color);
-  border-color: var(--icons-active-color);
   border-radius: 2px;
   border: none;
   transition: fill 250ms var(--transition-fn);
 }
 
-.terms-privacy {
-  font-weight: 400;
+.form-privacy {
   font-size: 14px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
 }
 
-.terms-privacy-link {
+.form-privacy-link {
   color: var(--blue-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
-}
-
-.terms-checkbox {
-  position: relative;
-  font-size: 14px;
-  margin-left: 20px;
-  color: #757575;
 }
 
 .form-button {
@@ -834,6 +819,6 @@ input:checked + .icon-check {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 875;
   letter-spacing: 0.06em;
 }
