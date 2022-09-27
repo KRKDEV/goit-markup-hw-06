@@ -582,7 +582,7 @@ body {
 } */
 
 .newsletter-input {
-  width: 358px;
+  width: 342px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -597,26 +597,30 @@ body {
 }
 .newsletter-button {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   margin-left: 12px;
-  padding-left: 42px;
-  padding-right: 13px;
-  width: 200px;
   height: 50px;
   background-color: var(--button-primary-color);
-  color: #ffffff;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+}
+
+.newsletter-button span {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  margin-left: 42px;
+  margin-right: 24px;
+  color: #ffffff;
 }
 
+.newsletter-icon {
+  margin-right: 28px;
+}
 /* ===== END FOOTER ===== */
 
 /* ===== MODAL WINDOW ===== */
