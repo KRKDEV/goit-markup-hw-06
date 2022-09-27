@@ -659,6 +659,11 @@ body {
   cursor: pointer;
 }
 
+.close-button:focus {
+  background-color: var(--icons-active-color);
+  color: #ffffff;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -721,7 +726,7 @@ body {
 }
 
 .form-label:focus-within > input {
-  border: 1px solid var(--icons-active-color);
+  border-color: var(--icons-active-color);
   transition: border-color 250ms var(--transition-fn);
 }
 
