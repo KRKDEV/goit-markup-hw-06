@@ -777,7 +777,7 @@ body {
 .icon-check {
   position: absolute;
   fill: #ffffff;
-  top: 0;
+  top: 2px;
   right: 97%;
   border: 1px solid var(--dark-text-color);
   border-radius: 4px;
